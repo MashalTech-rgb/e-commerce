@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Left Section: Logo & Description */}
           <div className="mb-6 md:mb-0 max-w-sm">
             <div className="flex items-center space-x-2 mb-3">
-              <img src="/src/assets/logo-colored.png" alt="Brand Logo" className="w-30 h-10" />
+              <img src="/images/assets/logo-colored.png" alt="Brand Logo" className="w-30 h-10" />
             </div>
             <p className="text-black">
               Best information about the company <br /> goes here but now lorem ipsum is
@@ -76,12 +76,12 @@ const Footer = () => {
               <h3 className="font-semibold mb-3">Get app</h3>
               <div className="flex flex-col space-y-2">
                 <img
-                  src="/src/assets/market-button 1.png"
+                  src="/images/assets/market-button 1.png"
                   alt="App Store"
                   className="w-32 cursor-pointer"
                 />
                 <img
-                  src="/src/assets/market-button.png"
+                  src="/images/assets/market-button.png"
                   alt="Google Play"
                   className="w-32 cursor-pointer"
                 />
@@ -95,7 +95,7 @@ const Footer = () => {
           <div className="container mx-auto flex flex-wrap justify-between items-center py-4 px-6 text-gray-700 text-sm">
             <p>© {new Date().getFullYear()} Ecommerce.</p>
             <div className="flex items-center gap-2 cursor-pointer">
-              <img src="/src/assets/US@2x.png" alt="US Flag" className="w-5 h-5" />
+              <img src="/images/assets/US@2x.png" alt="US Flag" className="w-5 h-5" />
               <span>English</span>
               <span>▲</span>
             </div>

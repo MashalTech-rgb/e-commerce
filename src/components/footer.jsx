@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react
 
 const Footer = () => {
   return (
-    <footer className="bg-white">
+    <footer className="bg-white border-t border-gray-300">
       <div className="container">
         {/* Top Section */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center px-16 py-8">

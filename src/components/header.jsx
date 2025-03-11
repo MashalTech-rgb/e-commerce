@@ -19,7 +19,7 @@ const Header = () => {
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
           <img
-            src="/src/assets/logo-colored.png" // Change this to your logo path
+            src="/images/logo-colored.png" // Change this to your logo path
             alt="Brand Logo"
             className="w-28 md:w-32 h-auto" // Adjust logo size
           />

@@ -1,13 +1,13 @@
 import React from "react";
-import image92 from "/images/assets/image92.png"; 
-import img1 from "/images/assets/1.jpg"; 
-import img2 from "/images/assets/2.jpg";
-import img3 from "/images/assets/3.jpg";
-import img4 from "/images/assets/4.jpg";
-import img5 from "/images/assets/5.jpg";
-import img6 from "/images/assets/6.jpg";
-import img7 from "/images/assets/7.jpg";
-import img8 from "/images/assets/8.jpg";
+import image92 from "/assets/images/image92.png"; 
+import img1 from "/assets/images/1.jpg"; 
+import img2 from "/assets/images/2.jpg";
+import img3 from "/assets/images/3.jpg";
+import img4 from "/assets/images/4.jpg";
+import img5 from "/assets/images/5.jpg";
+import img6 from "/assets/images/6.jpg";
+import img7 from "/assets/images/7.jpg";
+import img8 from "/assets/images/8.jpg";
 
 const HomeOutdoor = () => {
   const products = [

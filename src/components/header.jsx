@@ -19,7 +19,7 @@ const Header = () => {
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
           <img
-            src="/images/assets/logo-colored.png" // Change this to your logo path
+            src="/assets/images/logo-colored.png" // Change this to your logo path
             alt="Brand Logo"
             className="w-28 md:w-32 h-auto" // Adjust logo size
           />
@@ -125,7 +125,7 @@ const Header = () => {
           <div className="flex items-center cursor-pointer hover:text-blue-500">
             <span>Ship to</span>
             <img
-              src="/images/assets/icon.png" // Replace with actual flag image path
+              src="/assets/images/icon.png" // Replace with actual flag image path
               alt="Germany Flag"
               className="w-5 h-3 ml-2"
             />

@@ -43,7 +43,7 @@ const CategoryBanner = () => {
         <div
           className="md:col-span-7 flex flex-col rounded-lg p-14 relative text-black"
           style={{
-            backgroundImage: "url('/images/assets/Banner-board-800x420 2.png')",
+            backgroundImage: "url('/assets/images/Banner-board-800x420 2.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             height: "full",
@@ -66,7 +66,7 @@ const CategoryBanner = () => {
   <div className="flex items-center gap-4"> {/* Flexbox for one row */}
     {/* Avatar Image */}
     <img
-      src="/images/assets/Avatar.png"
+      src="/assets/images/Avatar.png"
       alt="User Avatar"
       className="w-12 h-12 rounded-full"
     />

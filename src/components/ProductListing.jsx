@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import { FaRegHeart, FaBars, FaTh, FaShippingFast } from 'react-icons/fa';
 import { IoMdStar } from 'react-icons/io';
-import ProductDetail from '../pages/ProductDetail';
-
 const ProductList = ({ filters }) => {
   // State declarations
   const [isVerified, setIsVerified] = useState(true);

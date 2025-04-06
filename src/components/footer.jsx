@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
+import { MdKeyboardArrowUp, MdKeyboardArrowDown } from "react-icons/md"; // Correct import
 
 const Footer = () => {
+  const [languageOpen, setLanguageOpen] = useState(false);
+  const languages = ["English", "Spanish", "French", "German", "Chinese"];
+
   return (
     <footer className="bg-white border-t border-gray-300">
       <div className="container">
@@ -94,10 +98,33 @@ const Footer = () => {
         <div className="bg-gray-200 px-14">
           <div className="container mx-auto flex flex-wrap justify-between items-center py-4 px-6 text-gray-700 text-sm">
             <p>© {new Date().getFullYear()} Ecommerce.</p>
-            <div className="flex items-center gap-2 cursor-pointer">
-              <img src="/assets/images/US@2x.png" alt="US Flag" className="w-5 h-5" />
-              <span>English</span>
-              <span>▲</span>
+            <div className="relative">
+              <div
+                className="flex items-center gap-2 cursor-pointer"
+                onClick={() => setLanguageOpen(!languageOpen)}
+              >
+                <img src="/assets/images/US@2x.png" alt="US Flag" className="w-5 h-5" />
+                <span>English</span>
+                {languageOpen ? (
+                  <MdKeyboardArrowUp className="w-4 h-4" />
+                ) : (
+                  <MdKeyboardArrowDown className="w-4 h-4" />
+                )}
+              </div>
+              {/* Language Dropdown (Opens Upwards and Aligns Right) */}
+              {languageOpen && (
+                <div className="absolute bottom-full right-0 bg-white shadow-md rounded-md p-2 z-10 min-w-[120px]">
+                  {languages.map((language, index) => (
+                    <div
+                      key={index}
+                      className="cursor-pointer hover:text-blue-500 p-1"
+                      onClick={() => setLanguageOpen(false)}
+                    >
+                      {language}
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
         </div>

@@ -1,16 +1,19 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ProductList from "./components/ProductList";
-import ProductDetail from "./pages/ProductDetail";
-import Listing from "./pages/listing";
-
-function App() {
+// App.jsx
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
+import Layout from './pages/Layout';
+import Listing from './pages/listing'; 
+import ProductDetail from './pages/ProductDetail';
+const App = () => {
   return (
-    <Router>
+    <> 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/listing" element={<Listing/>} />
-        <Route path="/products/:id" element={<ProductDetail />} /> {/* Add this route */}
+        <Route path="/" element={<Layout />} /> 
+        <Route path="/listing" element={<Listing />} /> 
+        <Route path="/products/:productId" element={<ProductDetail />} /> 
       </Routes>
-    </Router>
+    </>
   );
-}
+};
+
+export default App;

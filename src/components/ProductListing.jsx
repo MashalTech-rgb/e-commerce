@@ -687,7 +687,7 @@ const ProductList = ({ filters }) => {
                 </div>
                 <p className="text-sm text-gray-600 mt-2">{product.description}</p>
                 <Link to ={`/products/${product.id}`} 
-  target="_blank" 
+ 
   rel="noopener noreferrer"
   className="mt-2 text-blue-600 font-medium"
 >

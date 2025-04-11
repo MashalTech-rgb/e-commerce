@@ -11,25 +11,25 @@ const ExtraServices = () => {
     {
       id: 1,
       title: 'Source from Industry Hubs',
-      image: '/public/assets/images/supplier.png',
+      image: '/assets/images/supplier.png',
       icon: <FaSearch className="w-4 h-4 text-black" />, 
     },
     {
       id: 2,
       title: 'Customize Your Products',
-      image: '/public/assets/images/Products.png',
+      image: '/assets/images/Products.png',
       icon: <FaShoppingBasket className="w-4 h-4 text-black" />, 
     },
     {
       id: 3,
       title: 'Fast, reliable shipping by ocean or air',
-      image: '/public/assets/images/shiping.png',
+      image: '/assets/images/shiping.png',
       icon: <FaTruck className="w-4 h-4 text-black" />, 
     },
     {
       id: 4,
       title: 'Product monitoring and inspection',
-      image: '/public/assets/images/inspection.png',
+      image: '/assets/images/inspection.png',
       icon: <FaShieldAlt className="w-4 h-4 text-black" />, 
     },
   ];

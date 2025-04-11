@@ -117,25 +117,31 @@ const ProductDescription = () => {
 
         {/* You May Like Section (Right Side) - Fixed Position */}
         <div className="w-full lg:w-1/4">
-          <div className="bg-white rounded-lg shadow p-6 h-fit sticky top-4">
-            <h2 className="text-xl font-bold mb-4">You may like</h2>
-            <div className="space-y-4">
-              {relatedProducts.map((product, index) => (
-                <div 
-                  key={index} 
-                  className="flex gap-3 items-start p-2 hover:bg-gray-50 rounded cursor-pointer transition-colors"
-                >
-                  <div className="w-16 h-16 bg-gray-200 rounded"></div>
-                  <div>
-                    <h3 className="font-medium text-sm">{product.name}</h3>
-                    <p className="text-xs text-gray-500">{product.desc}</p>
-                    <p className="text-blue-600 text-sm font-medium mt-1">{product.price}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
+  <div className="bg-white rounded-lg shadow p-6 h-fit sticky top-4">
+    <h2 className="text-xl font-bold mb-4">You may like</h2>
+    <div className="space-y-4">
+      {relatedProducts.map((product, index) => (
+        <div 
+          key={index} 
+          className="flex gap-3 items-start p-2 hover:bg-gray-50 rounded cursor-pointer transition-colors"
+        >
+          <div className="w-16 h-16 bg-gray-200 rounded">
+          <img 
+  src={product.image || '/assets/images/7-removebg-preview.png'} 
+  alt={product.name}
+  className="w-full h-full object-cover"
+/>
+          </div>
+          <div>
+            <h3 className="font-medium text-sm">{product.name}</h3>
+            <p className="text-xs text-gray-500">{product.desc}</p>
+            <p className="text-blue-600 text-sm font-medium mt-1">{product.price}</p>
           </div>
         </div>
+      ))}
+    </div>
+  </div>
+</div>
       </div>
     </div>
   );

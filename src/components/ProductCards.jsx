@@ -23,11 +23,11 @@ const ProductCard = () => {
       warranty: "2 years full warranty"
     },
     images: [
-      "/public/assets/images/image34.png",
-      "/public/assets/images/image40.png",
-      "/public/assets/images/image36.png",
-      "/public/assets/images/image37.png",
-      "/public/assets/images/image39.png",
+      "/assets/images/image34.png",
+      "/assets/images/image40.png",
+      "/assets/images/image36.png",
+      "/assets/images/image37.png",
+      "/assets/images/image39.png",
     ],
     supplier: {
       name: "Guanjoi Trading LLC",

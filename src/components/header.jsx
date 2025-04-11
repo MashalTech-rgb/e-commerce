@@ -19,11 +19,11 @@ const Header = () => {
 
   const currencies = ["USD", "EUR", "GBP", "INR", "JPY"];
   const countries = [
-    { name: "Germany", flag: "/public/assets/images/germany.png" },
-    { name: "USA", flag: "/public/assets/images/australia.png" },
-    { name: "UK", flag: "/public/assets/images/england.png" },
-    { name: "France", flag: "/public/assets/images/france.png" },
-    { name: "China", flag: "/public/assets/images/china.png" },
+    { name: "Germany", flag: "/assets/images/germany.png" },
+    { name: "USA", flag: "/assets/images/australia.png" },
+    { name: "UK", flag: "/assets/images/england.png" },
+    { name: "France", flag: "/assets/images/france.png" },
+    { name: "China", flag: "/assets/images/china.png" },
   ];
   const categories = ["Hot offers", "Gift boxes", "Projects", "Menu items"];
   const helpOptions = ["FAQ", "Contact Us", "Shipping Info", "Returns", "Privacy Policy"];

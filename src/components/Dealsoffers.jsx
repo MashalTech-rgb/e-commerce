@@ -9,11 +9,11 @@ const DealsOffers = () => {
   });
 
   const products = [
-    { id: 1, name: "Smart watches", discount: "-25%", image: "/public/assets/images/image 35.png" },
-    { id: 2, name: "Laptops", discount: "-15%", image: "/public/assets/images/image 34.png" },
-    { id: 3, name: "GoPro cameras", discount: "-40%", image: "/public/assets/images/image 28.png" },
-    { id: 4, name: "Headphones", discount: "-25%", image: "/public/assets/images/image 29.png" },
-    { id: 5, name: "Canon cameras", discount: "-25%", image: "/public/assets/images/image 23.png" },
+    { id: 1, name: "Smart watches", discount: "-25%", image: "/assets/images/image 35.png" },
+    { id: 2, name: "Laptops", discount: "-15%", image: "/assets/images/image 34.png" },
+    { id: 3, name: "GoPro cameras", discount: "-40%", image: "/assets/images/image 28.png" },
+    { id: 4, name: "Headphones", discount: "-25%", image: "/assets/images/image 29.png" },
+    { id: 5, name: "Canon cameras", discount: "-25%", image: "/assets/images/image 23.png" },
   ];
 
   useEffect(() => {

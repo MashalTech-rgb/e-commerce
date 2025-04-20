@@ -81,7 +81,7 @@ const Header = () => {
           </div>
           <div className="flex flex-col items-center cursor-pointer hover:text-blue-500">
             <FaShoppingCart className="w-5 h-5" />
-            <span className="text-xs">My cart</span>
+            <span className="text-xs"> <Link to="/MyCart">My Cart</Link></span>
           </div>
         </div>
 
@@ -114,7 +114,7 @@ const Header = () => {
             {/* My Cart */}
             <div className="flex flex-col items-center cursor-pointer hover:text-blue-500">
               <FaShoppingCart className="w-5 h-5" />
-              <span className="text-xs">My cart</span>
+              <span className="text-xs">  <Link to="/MyCart">My Cart</Link></span>
             </div>
           </div>
         )}

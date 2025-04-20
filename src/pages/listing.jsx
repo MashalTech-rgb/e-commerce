@@ -5,6 +5,7 @@ import Newsletter from '../components/Newsletter';
 import Sidebar from '../components/Sidebar';
 import ProductList from '../components/ProductListing';
 import BreadcrumbItems from '../components/Breadscrumb';
+
 const Listing = () => {
   // State for filters
   const [filters, setFilters] = useState({
